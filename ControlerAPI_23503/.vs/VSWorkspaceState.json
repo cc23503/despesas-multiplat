@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\Controllers",
-    "\\Data"
+    "\\Data",
+    "\\Models"
   ],
-  "SelectedNode": "\\Controllers\\DespesasController.cs",
+  "SelectedNode": "\\Data\\AppDbContext.cs",
   "PreviewInSolutionExplorer": false
 }

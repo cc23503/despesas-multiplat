@@ -6,5 +6,6 @@ namespace ControlerAPI_23503.Models
         public string Descricao { get; set; }
         public decimal Valor { get; set; }
         public bool Fixa { get; set; }
+        public DateTime Data {  get; set; }
     }
 }
