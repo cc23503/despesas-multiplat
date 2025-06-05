@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ControlerAPI_23503.props" />
+</Project>

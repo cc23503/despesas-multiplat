@@ -9,7 +9,10 @@ namespace ControlerAPI_23503.Controllers
     public class DespesasController : ControllerBase
     {
         [HttpGet]
-        public IEnumerable<Despesa> Get() => RepositorioDespesa.PegarTodas();
+        public IEnumerable<Despesa> Get()
+        {
+            return RepositorioDespesa.PegarTodas();
+        }
 
         [HttpGet("{id}")]
         public Despesa? Get(int id) => RepositorioDespesa.PegarPorId(id);
@@ -18,7 +21,7 @@ namespace ControlerAPI_23503.Controllers
         public IActionResult Post([FromBody] Despesa despesa)
         {
             if (despesa == null) return BadRequest();
-            despesa.Id = RepositorioDespesa.Despesas.Count + 1;
+            despesa.Id = RepositorioDespesa.PegarTodas().Count + 1;
             RepositorioDespesa.Adicionar(despesa);
             return CreatedAtAction(nameof(Get), new { id = despesa.Id }, despesa);
         }
@@ -32,6 +35,5 @@ namespace ControlerAPI_23503.Controllers
 
             return NoContent();
         }
-
     }
 }
