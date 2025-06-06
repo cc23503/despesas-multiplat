@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControlerAPI_23503")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17c3fdf1410e452078553886fb96ad7c0b12fd31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9769d94e4202791aa6f33da35145c2a788527a63")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControlerAPI_23503")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControlerAPI_23503")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
